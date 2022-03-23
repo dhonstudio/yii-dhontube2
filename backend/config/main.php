@@ -8,10 +8,12 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'name' => 'Dhon Tube',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+    'language' => 'id',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
